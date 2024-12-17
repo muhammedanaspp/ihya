@@ -11,6 +11,24 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+<style>
+  /* Smooth Scrolling Effect */
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Fade-in Animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  .fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+    
 </head>
 
 <body class="font-poppins">
